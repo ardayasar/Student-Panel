@@ -24,7 +24,7 @@ public class studentinformation extends JFrame {
     private JButton delete;
 
     static final String DB_URL = "jdbc:mysql://localhost:3306/ogrenci_panel?useSSL=false";
-    static final String USER = "kadir";
+    static final String USER = "admin";
     static final String PASS = "";
 //    static final String QUERY = "SELECT userID FROM users";
 

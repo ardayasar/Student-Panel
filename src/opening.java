@@ -27,7 +27,7 @@ public class opening extends JFrame{
         tblModel.setColumnIdentifiers(headers);
 
         String DB_URL = "jdbc:mysql://localhost:3306/ogrenci_panel?useSSL=false";
-        String USER = "kadir";
+        String USER = "admin";
         String PASS = "";
         String QUERY = "SELECT ogrenci_id, ad, soyad FROM ogrenciler WHERE deleted = 'false' ORDER BY ogrenci_id DESC";
         PreparedStatement preparedStatement = null;
